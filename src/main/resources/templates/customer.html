@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div>
+		<h3>Customer information</h3>
+
+		<form action="addCustomer" method="post">
+			<table>
+				<tr>
+					<td><label>First Name:</label><input required="true"
+						type=" text" name="firstName" /></td>
+				</tr>
+				<tr>
+					<td><label>Last Name:</label><input required="true"
+						type=" text" name="lastName" /></td>
+				</tr>
+				<tr>
+					<td><label>Email Address:</label><input required="true" type=" text"
+						class="form-control" name="emailAddress" /></td>
+				</tr>
+				<tr>
+					<td><label>Phone Number:</label><input required="true"
+						type=" text" class="form-control" name="phoneNumber" /></td>
+				</tr>
+				<tr>
+					<td><br />
+					<input type="submit" value="Add" class="btn btn-primary" /></td>
+				</tr>
+			</table>
+		</form>   
+	</div>
+
+</body>
+</html>
